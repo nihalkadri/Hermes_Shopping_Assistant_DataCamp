@@ -1,0 +1,54 @@
+Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Variant SKU,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Requires Shipping,Variant Taxable,Status,Image Src
+nike-air-zoom-pegasus-40,Nike Air Zoom Pegasus 40,A responsive daily trainer with Nike React foam for road running.,Nike,Running Shoes,"Nike, Running Shoes",TRUE,Size,7,shoe-001-7,shopify,100,deny,manual,89.99,TRUE,TRUE,active,https://images.unsplash.com/photo-1562613521-6b5293e5b0ea?fm=jpg&q=80&w=1200&auto=format&fit=crop
+nike-air-zoom-pegasus-40,,,,,,,Size,8,shoe-001-8,shopify,100,deny,manual,89.99,TRUE,TRUE,,
+nike-air-zoom-pegasus-40,,,,,,,Size,9,shoe-001-9,shopify,100,deny,manual,89.99,TRUE,TRUE,,
+nike-air-zoom-pegasus-40,,,,,,,Size,10,shoe-001-10,shopify,100,deny,manual,89.99,TRUE,TRUE,,
+nike-air-zoom-pegasus-40,,,,,,,Size,11,shoe-001-11,shopify,100,deny,manual,89.99,TRUE,TRUE,,
+nike-air-zoom-pegasus-40,,,,,,,Size,12,shoe-001-12,shopify,100,deny,manual,89.99,TRUE,TRUE,,
+nike-revolution-6,Nike Revolution 6,"Lightweight, budget-friendly trainer with breathable mesh.",Nike,Running Shoes,"Nike, Running Shoes",TRUE,Size,6,shoe-002-6,shopify,100,deny,manual,64.99,TRUE,TRUE,active,https://images.unsplash.com/photo-1557330359-ffb0deed6163?fm=jpg&q=80&w=1200&auto=format&fit=crop
+nike-revolution-6,,,,,,,Size,7,shoe-002-7,shopify,100,deny,manual,64.99,TRUE,TRUE,,
+nike-revolution-6,,,,,,,Size,8,shoe-002-8,shopify,100,deny,manual,64.99,TRUE,TRUE,,
+nike-revolution-6,,,,,,,Size,9,shoe-002-9,shopify,100,deny,manual,64.99,TRUE,TRUE,,
+nike-revolution-6,,,,,,,Size,10,shoe-002-10,shopify,100,deny,manual,64.99,TRUE,TRUE,,
+nike-revolution-6,,,,,,,Size,11,shoe-002-11,shopify,100,deny,manual,64.99,TRUE,TRUE,,
+nike-air-max-270,Nike Air Max 270,Lifestyle runner with Nike's largest heel Air unit for all-day comfort.,Nike,Running Shoes,"Nike, Running Shoes",TRUE,Size,8,shoe-003-8,shopify,100,deny,manual,139.99,TRUE,TRUE,active,https://images.unsplash.com/photo-1562613521-6b5293e5b0ea?fm=jpg&q=80&w=1200&auto=format&fit=crop
+nike-air-max-270,,,,,,,Size,9,shoe-003-9,shopify,100,deny,manual,139.99,TRUE,TRUE,,
+nike-air-max-270,,,,,,,Size,10,shoe-003-10,shopify,100,deny,manual,139.99,TRUE,TRUE,,
+nike-air-max-270,,,,,,,Size,11,shoe-003-11,shopify,100,deny,manual,139.99,TRUE,TRUE,,
+nike-air-max-270,,,,,,,Size,12,shoe-003-12,shopify,100,deny,manual,139.99,TRUE,TRUE,,
+nike-air-max-270,,,,,,,Size,13,shoe-003-13,shopify,100,deny,manual,139.99,TRUE,TRUE,,
+nike-free-rn-5-0,Nike Free RN 5.0,"Flexible, barefoot-feel trainer for natural motion running.",Nike,Running Shoes,"Nike, Running Shoes",TRUE,Size,7,shoe-004-7,shopify,100,deny,manual,79.99,TRUE,TRUE,active,https://images.unsplash.com/photo-1557330359-ffb0deed6163?fm=jpg&q=80&w=1200&auto=format&fit=crop
+nike-free-rn-5-0,,,,,,,Size,8,shoe-004-8,shopify,100,deny,manual,79.99,TRUE,TRUE,,
+nike-free-rn-5-0,,,,,,,Size,9,shoe-004-9,shopify,100,deny,manual,79.99,TRUE,TRUE,,
+nike-free-rn-5-0,,,,,,,Size,10,shoe-004-10,shopify,100,deny,manual,79.99,TRUE,TRUE,,
+nike-free-rn-5-0,,,,,,,Size,11,shoe-004-11,shopify,100,deny,manual,79.99,TRUE,TRUE,,
+adidas-ultraboost-22,Adidas Ultraboost 22,Premium energy-return trainer with Boost midsole cushioning.,Adidas,Running Shoes,"Adidas, Running Shoes",TRUE,Size,8,shoe-005-8,shopify,100,deny,manual,149.99,TRUE,TRUE,active,https://images.unsplash.com/flagged/photo-1556637640-2c80d3201be8?fm=jpg&q=80&w=1200&auto=format&fit=crop
+adidas-ultraboost-22,,,,,,,Size,9,shoe-005-9,shopify,100,deny,manual,149.99,TRUE,TRUE,,
+adidas-ultraboost-22,,,,,,,Size,10,shoe-005-10,shopify,100,deny,manual,149.99,TRUE,TRUE,,
+adidas-ultraboost-22,,,,,,,Size,11,shoe-005-11,shopify,100,deny,manual,149.99,TRUE,TRUE,,
+adidas-ultraboost-22,,,,,,,Size,12,shoe-005-12,shopify,100,deny,manual,149.99,TRUE,TRUE,,
+adidas-duramo-sl,Adidas Duramo SL,Everyday value trainer with a cushioned Cloudfoam midsole.,Adidas,Running Shoes,"Adidas, Running Shoes",TRUE,Size,7,shoe-006-7,shopify,100,deny,manual,59.99,TRUE,TRUE,active,https://images.unsplash.com/photo-1680204101489-2c1319c872b2?fm=jpg&q=80&w=1200&auto=format&fit=crop
+adidas-duramo-sl,,,,,,,Size,8,shoe-006-8,shopify,100,deny,manual,59.99,TRUE,TRUE,,
+adidas-duramo-sl,,,,,,,Size,9,shoe-006-9,shopify,100,deny,manual,59.99,TRUE,TRUE,,
+adidas-duramo-sl,,,,,,,Size,10,shoe-006-10,shopify,100,deny,manual,59.99,TRUE,TRUE,,
+adidas-duramo-sl,,,,,,,Size,11,shoe-006-11,shopify,100,deny,manual,59.99,TRUE,TRUE,,
+adidas-duramo-sl,,,,,,,Size,12,shoe-006-12,shopify,100,deny,manual,59.99,TRUE,TRUE,,
+adidas-adizero-adios-pro-3,Adidas Adizero Adios Pro 3,Carbon-plated racing shoe built for marathon PRs.,Adidas,Running Shoes,"Adidas, Running Shoes",TRUE,Size,9,shoe-007-9,shopify,100,deny,manual,224.99,TRUE,TRUE,active,https://images.unsplash.com/flagged/photo-1556637640-2c80d3201be8?fm=jpg&q=80&w=1200&auto=format&fit=crop
+adidas-adizero-adios-pro-3,,,,,,,Size,10,shoe-007-10,shopify,100,deny,manual,224.99,TRUE,TRUE,,
+adidas-adizero-adios-pro-3,,,,,,,Size,11,shoe-007-11,shopify,100,deny,manual,224.99,TRUE,TRUE,,
+adidas-adizero-adios-pro-3,,,,,,,Size,12,shoe-007-12,shopify,100,deny,manual,224.99,TRUE,TRUE,,
+new-balance-fresh-foam-x-1080v12,New Balance Fresh Foam X 1080v12,"Plush daily trainer with a wide, stable base for long miles.",New Balance,Running Shoes,"New Balance, Running Shoes",TRUE,Size,8,shoe-008-8,shopify,100,deny,manual,164.99,TRUE,TRUE,active,https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?fm=jpg&q=80&w=1200&auto=format&fit=crop
+new-balance-fresh-foam-x-1080v12,,,,,,,Size,9,shoe-008-9,shopify,100,deny,manual,164.99,TRUE,TRUE,,
+new-balance-fresh-foam-x-1080v12,,,,,,,Size,10,shoe-008-10,shopify,100,deny,manual,164.99,TRUE,TRUE,,
+new-balance-fresh-foam-x-1080v12,,,,,,,Size,11,shoe-008-11,shopify,100,deny,manual,164.99,TRUE,TRUE,,
+new-balance-fresh-foam-x-1080v12,,,,,,,Size,12,shoe-008-12,shopify,100,deny,manual,164.99,TRUE,TRUE,,
+new-balance-fresh-foam-x-1080v12,,,,,,,Size,13,shoe-008-13,shopify,100,deny,manual,164.99,TRUE,TRUE,,
+asics-gel-nimbus-25,ASICS Gel-Nimbus 25,Max-cushion neutral trainer with Gel technology for shock absorption.,ASICS,Running Shoes,"ASICS, Running Shoes",TRUE,Size,7,shoe-009-7,shopify,100,deny,manual,154.99,TRUE,TRUE,active,https://images.unsplash.com/photo-1572710029599-1e1ffe84493f?fm=jpg&q=80&w=1200&auto=format&fit=crop
+asics-gel-nimbus-25,,,,,,,Size,8,shoe-009-8,shopify,100,deny,manual,154.99,TRUE,TRUE,,
+asics-gel-nimbus-25,,,,,,,Size,9,shoe-009-9,shopify,100,deny,manual,154.99,TRUE,TRUE,,
+asics-gel-nimbus-25,,,,,,,Size,10,shoe-009-10,shopify,100,deny,manual,154.99,TRUE,TRUE,,
+asics-gel-nimbus-25,,,,,,,Size,11,shoe-009-11,shopify,100,deny,manual,154.99,TRUE,TRUE,,
+puma-velocity-nitro-2,Puma Velocity Nitro 2,Nitro-foam trainer that balances speed and everyday comfort.,Puma,Running Shoes,"Puma, Running Shoes",TRUE,Size,8,shoe-010-8,shopify,100,deny,manual,94.99,TRUE,TRUE,active,https://images.unsplash.com/photo-1581923597046-427a5d83f932?fm=jpg&q=80&w=1200&auto=format&fit=crop
+puma-velocity-nitro-2,,,,,,,Size,9,shoe-010-9,shopify,100,deny,manual,94.99,TRUE,TRUE,,
+puma-velocity-nitro-2,,,,,,,Size,10,shoe-010-10,shopify,100,deny,manual,94.99,TRUE,TRUE,,
+puma-velocity-nitro-2,,,,,,,Size,11,shoe-010-11,shopify,100,deny,manual,94.99,TRUE,TRUE,,

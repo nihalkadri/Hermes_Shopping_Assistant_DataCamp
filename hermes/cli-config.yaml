@@ -1,0 +1,77 @@
+# Hermes gateway config for the containerized shopping assistant.
+# Copied to BOTH ~/.hermes/cli-config.yaml and ~/.hermes/config.yaml by
+# entrypoint.sh — the CLI and gateway processes use different loaders and
+# each ignores whichever file it doesn't recognize. Don't hand-edit the
+# deployed copy; edit this file and redeploy.
+
+# Nous Portal as PRIMARY (swapped 2026-08-13). Its OAuth token's own claimed
+# rate limits (decoded from the JWT while setting up the fallback):
+# 50 req/MINUTE, 2100 req/HOUR - vs. OpenRouter's free tier, which is 50
+# req/DAY, ACCOUNT-WIDE across every free model (confirmed via a real 429:
+# "free-models-per-day"). Nous is the more reliable choice to lead with for
+# a live demo; OpenRouter is now the fallback instead, for the rare case
+# Nous itself has an outage. Confirmed tencent/hy3:free handles real
+# mcp__shop__*/mcp__shopify__* tool calls correctly in this exact deployment.
+model:
+  default: "tencent/hy3:free"
+  provider: "nous"
+
+# Tried in order when the primary hits a rate-limit, overload, or connection
+# error (see: hermes fallback --help).
+fallback_providers:
+  - provider: openrouter
+    model: nvidia/nemotron-3.5-lightning:free   # $0, confirmed tool-calling support + 1M context
+
+# Suppresses the model's mid-turn "Let me search for that…" narration as
+# separate Telegram messages (real Hermes feature: interim_assistant_
+# messages, on by default so users aren't staring at silence during long
+# tool-using turns) - kept for other platforms, off for Telegram specifically
+# since the single progressive "Working…" indicator (a separate mechanism,
+# unaffected by this) already covers that need without the message spam.
+display:
+  platforms:
+    telegram:
+      interim_assistant_messages: false
+
+terminal:
+  backend: "local"
+  timeout: 180
+
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+
+# Same gate as memory, applied to skill writes. false (the default either
+# way) lets the agent write skills freely, foreground or via the background
+# self-improvement review. Flip to true to stage every skill write for
+# approval instead - see tools/write_approval.py in Hermes's own source.
+skills:
+  write_approval: false
+
+agent:
+  max_turns: 60
+  api_max_retries: 1   # avoids slow failover hangs on the free model
+  gateway_notify_interval: 15   # default is 180s - too slow to show "Working…" on a normal turn
+
+platform_toolsets:
+  cli: [hermes-cli]
+  telegram: [hermes-telegram, session_search]
+
+# NOTE: top-level key is mcp_servers — NOT nested under mcp:
+mcp_servers:
+  shop:
+    command: "python"
+    args: ["/app/mcp_server/shop_mcp_server.py"]
+    env:
+      SHOP_API_URL: "http://localhost:8000"
+      PYTHONWARNINGS: "ignore"
+    enabled: true
+    timeout: 60
+  shopify:
+    command: "python"
+    args: ["/app/mcp_server/shopify_mcp_server.py"]
+    env:
+      SHOPIFY_STORE_DOMAIN: "hermes-store-fxlkj4ze.myshopify.com"
+      PYTHONWARNINGS: "ignore"
+    enabled: true
+    timeout: 60
